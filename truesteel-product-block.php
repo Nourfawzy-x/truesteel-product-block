@@ -8,7 +8,7 @@
  * Author:            The WordPress Contributors
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain:       todo-list
+ * Text Domain:       truesteel-product-block
  *
  * @package CreateBlock
  */
@@ -27,4 +27,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 function create_block_todo_list_block_init() {
 	register_block_type( __DIR__ . '/build' );
 }
-add_action( 'init', 'create_block_todo_list_block_init' );
+add_action( 'init', 'create_block_truesteel_product_block_block_init' );
